@@ -15,7 +15,7 @@ public class TensorflowGraph {
         Graph graph = TensorflowGraph.createGraph();
 
         // Run the graph with input values 3.0 and 6.0
-        Object result = TensorflowGraph.runGraph(graph, 3.0, 6.0);
+        Double result = TensorflowGraph.runGraph(graph, 3.0, 6.0);
 
         // Print the result to the console
         System.out.println(result);
