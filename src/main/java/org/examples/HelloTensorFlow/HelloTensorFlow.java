@@ -29,7 +29,7 @@ public class HelloTensorFlow {
              TInt32 x = TInt32.scalarOf(1000);
              //calls the ConcreteFunction with the input tensor x, which contains the value 10 -> performs the operation
              Tensor squareX = squareInteger.call(x)) {
-            System.out.println(x.getInt() + " doubled is " + ((TInt32) squareX).getInt());
+            System.out.println(x.getInt() + " squared is " + ((TInt32) squareX).getInt());
         }
     }
 
